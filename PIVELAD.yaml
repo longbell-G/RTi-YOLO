@@ -1,0 +1,10 @@
+# Dataset configuration file
+path: E:\datasets\solar_cell_EL_image\dataset_split  # Dataset root directory
+train: images/train  # Training set
+val: images/val      # Validation set
+test: images/test    # Test set
+
+# Class information
+nc: 8 # Number of classes
+#names: ['crack', 'finger', 'black_core', 'thick_line', 'star_crack', 'corner', 'fragment', 'scratch', 'horizontal_dislocation', 'vertical_dislocation', 'printing_error', 'short_circuit']  # Specific class names
+names: ['crack', 'finger', 'black_core', 'thick_line', 'star_crack','horizontal_dislocation', 'vertical_dislocation', 'short_circuit']  # Specific class names
